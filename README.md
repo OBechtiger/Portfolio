@@ -105,6 +105,18 @@ Once everything is set up, you can activate it in the *Poison* theme by includin
     remark42_site_id = "your_site_id"
 ```
 
+You can disable the comments section on specific posts using the `hideComments: true` parameter. Simply add this line to the front matter of the desired post.
+
+```yaml
+---
+title: "Example to demonstrate how to hide comments on a single post"
+date: 2024-12-07
+draft: false
+tags: ["Hugo"]
+hideComments: true
+---
+```
+
 ### Analytics
 
 Gain insights on your users.  Poison currently supports [Plausible](https://plausible.io) which is available via a paid service or by [self-hosting](https://github.com/plausible/analytics).  Take a look at the Poison demo site's 
